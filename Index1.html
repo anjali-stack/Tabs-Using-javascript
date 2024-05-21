@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta namr="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Tabs</title>
+
+        <!-- styles -->
+        <link rel="stylesheet" href= "STYLE.css">
+    </head>
+    <body>
+        <section class="section">
+            <div class="title">
+                <h2>About</h2>
+                <p>University Of Cincinnati</p>
+            </div>
+            <div class="about-center section-center">
+                <article class="about-img">
+                    <img src="./download.jpeg" alt="about picture">
+                </article>
+                <article class="about">
+                <!-- btn container-->
+                <div class="btn-container">
+                    <button class="tab-btn active" data-id="history">history</button>
+                    <button class="tab-btn" data-id="vision">vision</button>
+                    <button class="tab-btn" data-id="goal">goal</button>
+                </div>
+                <div class="about-content">
+                    <div class="content active" id="history">
+                        <h4>history</h4>
+                        <p>The University of Cincinnati (UC or Cincinnati, informally Cincy) is a public research university in Cincinnati, Ohio, United States. Founded in 1819 as Cincinnati College, it is the second oldest institution of higher education in the Cincinnati area[6] (behind Miami University) and has an annual enrollment of over 50,000 students, making it the second largest university in Ohio.[7] It is part of the University System of Ohio. The university's primary uptown campus and medical campus are located in the Heights and Corryville neighborhoods, with branch campuses located in Batavia and Blue Ash, Ohio.</p>
+                    </div>
+                    <div class="content" id="vision">
+                        <h4>vision</h4>
+                        <p>We work to build trust with our community through legitimacy in our actions. We strive to represent the diverse population we serve, and create a culture of excellence through equity and inclusion. We perform our duties to the best of our abilities, and strive to be judicious in our behaviors.</p>
+                    </div>
+                    <div class="content" id="goal">
+                        <h4>goal</h4>
+                        <p>We provide an inclusive environment where innovation and freedom of intellectual inquiry flourish. Through scholarship, service, partnerships, and leadership, we create opportunity, develop educated and engaged citizens, enhance the economy and enrich our university, city, state and global community.</p>
+                    </div>
+                </div>
+
+                </article>
+                
+            </div>
+        </section>
+        <!-- javascript -->
+        <script type="module" src="app.js"></script>
+    </body>
+</html>
